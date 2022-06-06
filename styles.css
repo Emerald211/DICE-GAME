@@ -1,0 +1,116 @@
+html {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding-bottom: 30px;
+  height: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.container {
+  
+  
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.dice {
+  text-align: center;
+  display: inline-block;
+
+}
+
+body {
+  background-color: #393E46;
+}
+
+h1 {
+  margin: 30px;
+  font-family: 'Lobster', cursive;
+  text-shadow: 5px 0 #232931;
+  font-size: 8rem;
+  color: #4ECCA3;
+}
+
+p {
+  font-size: 2rem;
+  color: #4ECCA3;
+  font-family: 'Indie Flower', cursive;
+}
+
+img {
+  width: 80%;
+}
+
+#roll-btn {
+  margin-top: 50px;
+  padding: 20px 40px;
+  background-color: #4ECCA3;
+  color: white;
+ 
+}
+
+footer {
+  margin-top: 5%;
+  color: #EEEEEE;
+  text-align: center;
+  font-family: 'Indie Flower', cursive;
+
+}
+
+.open-button {
+  background-color: #555;
+  color: white;
+  padding: 16px 20px;
+  border: none;
+  cursor: pointer;
+  opacity: 0.8;
+  position: fixed;
+  top: 3px;
+  
+  width: auto;
+}
+
+.mod {
+  animation: mymove 5s infinite;
+  animation-delay: 2s;
+  
+
+}
+
+@keyframes mymove {
+  from {top: 1000px;}
+  to {top: 0px;}
+}
+.cc {
+  display: none !important;
+}
+
+
+@media screen and (max-width:600px) {
+  h1 {
+    font-size: 3rem;
+    text-align: center;
+  }
+
+  img {
+    width: 100px;
+  }
+
+  .con {
+    margin-top: 140px;
+  }
+}
+
+@media screen and (min-width:601px) and (max-width:1024px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+}
